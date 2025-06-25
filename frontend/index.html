@@ -40,6 +40,7 @@
       }, [selectedDate]);
 
       const handleDateChange = (e) => {
+        console.log("Selected date:", e.target.value);
         setSelectedDate(e.target.value);
       };
 
